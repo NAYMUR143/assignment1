@@ -114,22 +114,22 @@ body .title {
   width: 93px;
 }
 
-.banner_section .banner_wrap {
+.banner_wrap {
   position: relative;
   padding: 50px 0px;
   border-radius: 5px;
   overflow: hidden;
   background: linear-gradient(to right, #f15b22, transparent);
 }
-.banner_section .banner_wrap h1 {
+.banner_wrap h1 {
   font-size: 40px;
   color: #ffffff;
   padding: 10px 0px;
 }
-.banner_section .banner_wrap .banner_txt {
+.banner_txt {
   padding: 0px 40px;
 }
-.banner_section .banner_wrap img {
+.banner_wrap img {
   position: absolute;
   top: 0px;
   z-index: -1;
@@ -178,10 +178,11 @@ body .title {
 }
 .project_dflx img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: contain;
+  height: 100%;
 }
 
+/* footer */
 footer {
   margin-top: 100px;
   background: #151414;
@@ -244,4 +245,4 @@ footer .social_icons {
 }
 .subcribe form .input::placeholder {
   opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+}
